@@ -10,7 +10,6 @@ ul {
   padding: 0;
 }
 
-/*CSS not linking to HMTL. Needs to be resolved.*/
 #banner {
   width: 517px;
   height: 41px;
@@ -18,4 +17,8 @@ ul {
   background-color: #372865;
   color: white;
   border-radius: 50px;
+}
+
+#main {
+  margin-top: 50px;
 }
