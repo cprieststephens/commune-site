@@ -9,3 +9,13 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+/*CSS not linking to HMTL. Needs to be resolved.*/
+#banner {
+  width: 517px;
+  height: 41px;
+  padding: 8px, 36px, 8px, 24px;
+  background-color: #372865;
+  color: white;
+  border-radius: 50px;
+}
