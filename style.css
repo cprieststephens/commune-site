@@ -1,3 +1,8 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f6f9fe;
+}
+
 /* Code for navbar found on W3 Schools website here on 13.06.22: https://www.w3schools.com/Css/css_navbar.asp*/
 ul {
   list-style-type: none;
