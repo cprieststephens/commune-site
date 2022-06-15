@@ -1,5 +1,5 @@
 * {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Nunito", sans-serif;
   background-color: #f6f9fe;
 }
 
@@ -17,8 +17,4 @@ ul {
   background-color: #372865;
   color: white;
   border-radius: 50px;
-}
-
-#main {
-  margin-top: 50px;
 }
