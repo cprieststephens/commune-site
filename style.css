@@ -21,3 +21,8 @@ ul {
   color: white;
   border-radius: 50px;
 }
+
+/*Code for CSS selectors found here on 15.06.22: https://www.w3schools.com/cssref/css_selectors.asp*/
+#banner a:link {
+  color: white;
+}
