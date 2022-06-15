@@ -1,6 +1,6 @@
 * {
   font-family: "Nunito", sans-serif;
-  background-color: #f6f9fe;
+  /*background-color: #f6f9fe;*/
 }
 
 /* Code for navbar found on W3 Schools website here on 13.06.22: https://www.w3schools.com/Css/css_navbar.asp*/
@@ -13,7 +13,10 @@ ul {
 #banner {
   width: 517px;
   height: 41px;
-  padding: 8px, 36px, 8px, 24px;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
   background-color: #372865;
   color: white;
   border-radius: 50px;
