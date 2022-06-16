@@ -34,3 +34,9 @@ li {
 #banner a:link {
   color: white;
 }
+
+#headline {
+  color: #353252;
+  font-weight: bold;
+  font-size: 50px;
+}
