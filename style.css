@@ -4,10 +4,18 @@
 }
 
 /* Code for navbar found on W3 Schools website here on 13.06.22: https://www.w3schools.com/Css/css_navbar.asp*/
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  display: flex;
+}
+
+li {
+  padding: 10px;
 }
 
 #banner {
