@@ -33,13 +33,17 @@ ul a:link {
   padding-right: 0px;
   padding-bottom: 0px;
   background-color: #372865;
-  color: white;
+  color: #cca8e9;
   border-radius: 50px;
+  /* Code for aligning text found here on 16.06.22: https://www.w3docs.com/snippets/css/how-to-horizontally-center-contents-within-a-div.html */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*Code for CSS selectors found here on 15.06.22: https://www.w3schools.com/cssref/css_selectors.asp*/
 #banner a:link {
-  color: white;
+  color: #cca8e9;
 }
 
 #headline {
