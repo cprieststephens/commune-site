@@ -26,8 +26,33 @@ li {
 }
 
 /*Code for CSS selectors found here on 15.06.22: https://www.w3schools.com/cssref/css_selectors.asp*/
-ul a:link {
+#features a:link {
   color: #353252;
+  text-decoration: none;
+}
+
+#affiliates a:link {
+  color: #353252;
+  text-decoration: none;
+}
+
+#pricing a:link {
+  color: #353252;
+  text-decoration: none;
+}
+
+#communities a:link {
+  color: #353252;
+  text-decoration: none;
+}
+
+#waitlist {
+  background-color: #372865;
+  border-radius: 3px;
+}
+
+#waitlist a:link {
+  /*color: #f6f9fe;*/
   text-decoration: none;
 }
 
