@@ -1,8 +1,13 @@
 * {
   font-family: "Nunito", sans-serif;
-  /*background-color: #f6f9fe;*/
   margin-left: 20px;
   margin-right: 20px;
+}
+
+nav,
+#middle,
+#companies {
+  *background-color: #f6f9fe;
 }
 
 /* Code for navbar found on W3 Schools website here on 13.06.22: https://www.w3schools.com/Css/css_navbar.asp*/
@@ -20,6 +25,7 @@ li {
   padding: 5px;
 }
 
+/*Code for CSS selectors found here on 15.06.22: https://www.w3schools.com/cssref/css_selectors.asp*/
 ul a:link {
   color: #353252;
   text-decoration: none;
@@ -35,7 +41,7 @@ ul a:link {
   background-color: #372865;
   color: #cca8e9;
   border-radius: 50px;
-  /* Code for aligning text found here on 16.06.22: https://www.w3docs.com/snippets/css/how-to-horizontally-center-contents-within-a-div.html */
+  /* Code for aligning text found here on 17.06.22: https://www.w3docs.com/snippets/css/how-to-horizontally-center-contents-within-a-div.html */
   display: flex;
   justify-content: center;
   align-items: center;
