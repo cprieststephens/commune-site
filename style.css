@@ -31,6 +31,12 @@ ul a:link {
   text-decoration: none;
 }
 
+#submit {
+  background-color: #372865;
+  color: #f6f9fe;
+  border-radius: 3px;
+}
+
 #banner {
   width: 517px;
   height: 41px;
