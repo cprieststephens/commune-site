@@ -51,9 +51,14 @@ li {
   border-radius: 3px;
 }
 
+/*Code for CSS selectors found here on 15.06.22: https://www.w3schools.com/cssref/css_selectors.asp*/
 #waitlist a:link {
-  /*color: #f6f9fe;*/
+  color: #f6f9fe;
   text-decoration: none;
+}
+
+#waitlist a:visited {
+  color: #f6f9fe;
 }
 
 #banner {
@@ -72,8 +77,11 @@ li {
   align-items: center;
 }
 
-/*Code for CSS selectors found here on 15.06.22: https://www.w3schools.com/cssref/css_selectors.asp*/
 #banner a:link {
+  color: #cca8e9;
+}
+
+#banner a:visited {
   color: #cca8e9;
 }
 
