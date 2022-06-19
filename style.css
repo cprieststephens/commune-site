@@ -21,10 +21,6 @@ ul {
   display: flex;
 }
 
-li {
-  padding: 5px;
-}
-
 /*Code for CSS selectors found here on 15.06.22: https://www.w3schools.com/cssref/css_selectors.asp*/
 #features a:link {
   color: #353252;
@@ -61,13 +57,14 @@ li {
   color: #f6f9fe;
 }
 
+#middle {
+  display: flex;
+}
+
 #banner {
   width: 517px;
   height: 41px;
-  padding-top: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
-  padding-bottom: 0px;
+  margin-top: 70px;
   background-color: #372865;
   color: #cca8e9;
   border-radius: 50px;
@@ -89,18 +86,24 @@ li {
   color: #353252;
   font-weight: bold;
   font-size: 50px;
+  margin-top: 20px;
+  margin-bottom: 0;
 }
 
-#illustration {
-  height: 418px;
-}
-
-#middle {
-  display: flex;
+#description {
+  margin-top: 0px;
 }
 
 #submit {
   background-color: #372865;
   color: #f6f9fe;
   border-radius: 3px;
+}
+
+#illustration {
+  height: 418px;
+}
+
+#companies {
+  margin-top: 50px;
 }
