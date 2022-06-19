@@ -21,6 +21,10 @@ ul {
   display: flex;
 }
 
+li {
+  margin: 0;
+}
+
 /*Code for CSS selectors found here on 15.06.22: https://www.w3schools.com/cssref/css_selectors.asp*/
 #features a:link {
   color: #353252;
@@ -94,10 +98,15 @@ ul {
   margin-top: 0px;
 }
 
+form {
+  margin: 0;
+}
+
 #submit {
   background-color: #372865;
   color: #f6f9fe;
   border-radius: 3px;
+  margin: 0;
 }
 
 #illustration {
@@ -106,4 +115,5 @@ ul {
 
 #companies {
   margin-top: 50px;
+  margin-left: 0;
 }
