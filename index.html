@@ -16,7 +16,7 @@
   <body>
     <!--Code for navbar found here on 13.06.22: https://www.w3schools.com/Css/css_navbar.asp-->
     <nav>
-      <img src="img\Logo.svg" />
+      <img id="logo" src="img\Logo.svg" />
       <ul>
         <li id="features"><a href="features.html">Features</a></li>
         <li id="affiliates"><a href="affiliates.html">Affiliates</a></li>
@@ -40,8 +40,9 @@
           manage everything from members to content from one central dashboard.
         </p>
         <!--Code for form found here on 14.06.21: https://www.w3schools.com/html/html_forms.asp-->
-        <form id="email" action="/action_page.php">
+        <form action="/action_page.php">
           <input
+            id="email"
             type="text"
             name="email"
             placeholder="Enter your email address"

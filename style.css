@@ -14,12 +14,17 @@ nav,
 nav {
   display: flex;
   justify-content: space-between;
-  margin-top: 20px;
+}
+
+#logo {
+  margin-top: 35px;
+  padding: 0;
 }
 
 ul {
   list-style-type: none;
   display: flex;
+  margin-top: 50px;
 }
 
 li {
@@ -107,6 +112,12 @@ form {
   color: #f6f9fe;
   border-radius: 3px;
   margin: 0;
+  border: none;
+  height: 25px;
+}
+
+#email {
+  margin-right: 0;
 }
 
 #illustration {
@@ -117,4 +128,8 @@ form {
 #companies {
   margin-top: 50px;
   margin-left: 0;
+}
+
+.heading {
+  padding-top: 25px;
 }
