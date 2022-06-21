@@ -16,7 +16,7 @@
   <body>
     <!--Code for navbar found here on 13.06.22: https://www.w3schools.com/Css/css_navbar.asp-->
     <nav>
-      <img id="logo" src="img\Logo.svg" />
+      <img id="logo" src="img\Logo.svg" alt="Commune logo" />
       <ul>
         <li id="features"><a href="features.html">Features</a></li>
         <li id="affiliates"><a href="affiliates.html">Affiliates</a></li>
@@ -25,20 +25,25 @@
         <li id="waitlist"><a href="#email">Join Waitlist</a></li>
       </ul>
     </nav>
-    <div id="middle">
-      <div id="text">
+    <div id="container">
+      <main>
         <div id="banner">
           <p>
             We are now allowing early access for users.
             <a href="learn_more.html">Learn more.</a>
           </p>
         </div>
-        <p id="headline">Build a highly engaged community with no effort.</p>
-        <p id="description">
-          Commune offers the tools you need to build a highly engaged community
-          with little to no effort. Simply set up your Commune workspace and
-          manage everything from members to content from one central dashboard.
-        </p>
+        <div id="text">
+          <h1 id="headline">
+            Build a highly engaged community with no effort.
+          </h1>
+          <p id="description">
+            Commune offers the tools you need to build a highly engaged
+            community with little to no effort. Simply set up your Commune
+            workspace and manage everything from members to content from one
+            central dashboard.
+          </p>
+        </div>
         <!--Code for form found here on 14.06.21: https://www.w3schools.com/html/html_forms.asp-->
         <form action="/action_page.php">
           <input
@@ -50,18 +55,24 @@
           <input id="submit" type="submit" value="Join Waitlist" />
         </form>
         <!--Code for embedding SVG files found here on 15.06.22: https://vecta.io/blog/best-way-to-embed-svg-->
-        <div id="companies">
+        <footer id="companies">
           <p>Used by these companies:</p>
-          <img src="img\Atlassian Icon.svg" />
-          <img src="img\Behance Icon.svg" />
-          <img src="img\Bing Icon.svg" />
-          <img src="img\Bitbucket Icon.svg" />
-          <img src="img\Dropbox Icon.svg" />
-          <img src="img\Twitch Icon.svg" />
-          <img src="img\Twitter Icon.svg" />
-        </div>
+          <img src="img\Atlassian Icon.svg" alt="Atlassian" />
+          <img src="img\Behance Icon.svg" alt="Behance" />
+          <img src="img\Bing Icon.svg" alt="Bing" />
+          <img src="img\Bitbucket Icon.svg" alt="Bitbucket" />
+          <img src="img\Dropbox Icon.svg" alt="Dropbox" />
+          <img src="img\Twitch Icon.svg" alt="Twitch" />
+          <img src="img\Twitter Icon.svg" alt="Twitter" />
+        </footer>
+      </main>
+      <div>
+        <img
+          id="illustration"
+          src="img\Illustration.png"
+          alt="abstract purple shapes topped with a mobile phone and paper plane"
+        />
       </div>
-      <div><img id="illustration" src="img\Illustration.png"</div>
     </div>
   </body>
 </html>

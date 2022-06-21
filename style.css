@@ -5,7 +5,7 @@
 }
 
 /*nav,*/
-#middle,
+#container,
 #companies {
   *background-color: #f6f9fe;
 }
@@ -67,7 +67,7 @@ li {
   color: #f6f9fe;
 }
 
-#middle {
+#container {
   display: flex;
 }
 
