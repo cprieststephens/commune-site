@@ -20,6 +20,7 @@ nav {
 #logo {
   padding-top: 35px;
   padding-left: 25px;
+  background-color: yellow;
 }
 
 ul {
@@ -30,6 +31,7 @@ ul {
 
 li {
   margin: 0;
+  padding-bottom: 40px;
 }
 
 /*Code for CSS selectors found here on 15.06.22: https://www.w3schools.com/cssref/css_selectors.asp*/
@@ -46,6 +48,10 @@ li {
 #pricing a:link {
   color: #353252;
   text-decoration: none;
+}
+
+#communities {
+  background-color: green;
 }
 
 #communities a:link {
