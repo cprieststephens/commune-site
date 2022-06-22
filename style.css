@@ -19,9 +19,8 @@ nav {
 }
 
 #logo {
-  padding-top: 5px;
-  padding-left: 25px;
   background-color: yellow;
+  margin-left: 0;
 }
 
 ul {
@@ -83,6 +82,7 @@ li {
   width: 517px;
   height: 41px;
   margin-top: 70px;
+  margin-left: -20px;
   background-color: #372865;
   color: #cca8e9;
   border-radius: 50px;
@@ -105,16 +105,21 @@ li {
   font-size: 50px;
   margin-top: 20px;
   margin-bottom: 0;
+  margin-left: -40px;
 }
 
 #description {
   margin-top: 0px;
   margin-bottom: 20px;
+  margin-left: -40px;
   background-color: lawngreen;
 }
 
 form {
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: -35px;
+  margin-right: 0;
   background-color: red;
 }
 
@@ -140,12 +145,13 @@ form {
 }
 
 #illustration {
-  height: 418px;
+  height: 375px;
   margin-top: 50px;
+  margin-right: 0;
 }
 
 #companies {
   margin-top: 50px;
-  margin-left: 0;
+  margin-left: -30px;
   background-color: aqua;
 }
