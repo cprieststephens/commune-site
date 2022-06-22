@@ -14,12 +14,10 @@
 nav {
   display: flex;
   justify-content: space-between;
-  background: pink;
   padding-top: 40px;
 }
 
 #logo {
-  background-color: yellow;
   margin-left: 0;
 }
 
@@ -48,10 +46,6 @@ li {
 #pricing a:link {
   color: #353252;
   text-decoration: none;
-}
-
-#communities {
-  background-color: green;
 }
 
 #communities a:link {
@@ -112,7 +106,6 @@ li {
   margin-top: 0px;
   margin-bottom: 20px;
   margin-left: -40px;
-  background-color: lawngreen;
 }
 
 form {
@@ -120,7 +113,6 @@ form {
   margin-bottom: 0;
   margin-left: -35px;
   margin-right: 0;
-  background-color: red;
 }
 
 #email {
@@ -153,5 +145,4 @@ form {
 #companies {
   margin-top: 50px;
   margin-left: -30px;
-  background-color: aqua;
 }
