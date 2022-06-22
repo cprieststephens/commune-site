@@ -15,10 +15,11 @@ nav {
   display: flex;
   justify-content: space-between;
   background: pink;
+  padding-top: 40px;
 }
 
 #logo {
-  padding-top: 35px;
+  padding-top: 5px;
   padding-left: 25px;
   background-color: yellow;
 }
@@ -26,12 +27,13 @@ nav {
 ul {
   list-style-type: none;
   display: flex;
-  margin-top: 50px;
+  /* margin-top: 50px;*/
 }
 
 li {
   margin: 0;
-  padding-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 /*Code for CSS selectors found here on 15.06.22: https://www.w3schools.com/cssref/css_selectors.asp*/
