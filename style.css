@@ -4,11 +4,11 @@
   margin-right: 20px;
 }
 
-/*nav,
+nav,
 #container,
 #companies {
-  *background-color: #f6f9fe;
-}*/
+  background-color: #f6f9fe;
+}
 
 /* Code for navbar found on W3 Schools website here on 13.06.22: https://www.w3schools.com/Css/css_navbar.asp*/
 nav {
@@ -34,22 +34,22 @@ li {
 
 /*Code for CSS selectors found here on 15.06.22: https://www.w3schools.com/cssref/css_selectors.asp*/
 #features a:link {
-  color: #353252;
+  color: #545454;
   text-decoration: none;
 }
 
 #affiliates a:link {
-  color: #353252;
+  color: #545454;
   text-decoration: none;
 }
 
 #pricing a:link {
-  color: #353252;
+  color: #545454;
   text-decoration: none;
 }
 
 #communities a:link {
-  color: #353252;
+  color: #545454;
   text-decoration: none;
 }
 
@@ -107,6 +107,8 @@ li {
   margin-bottom: 20px;
   margin-left: -40px;
   margin-right: 50px;
+  font-size: 18;
+  color: #545454;
 }
 
 form {
@@ -146,6 +148,7 @@ form {
 #companies {
   margin-top: 50px;
   margin-left: -30px;
+  color: #545454;
 }
 
 .icon {
