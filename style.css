@@ -14,7 +14,7 @@
 nav {
   display: flex;
   justify-content: space-between;
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
 #logo {
@@ -73,7 +73,7 @@ li {
 
 /* Code for aligning text found here on 17.06.22: https://www.w3docs.com/snippets/css/how-to-horizontally-center-contents-within-a-div.html */
 #banner {
-  width: 517px;
+  width: 500px;
   height: 41px;
   margin-top: 70px;
   margin-left: -20px;
@@ -106,6 +106,7 @@ li {
   margin-top: 0px;
   margin-bottom: 20px;
   margin-left: -40px;
+  margin-right: 50px;
 }
 
 form {
@@ -117,9 +118,9 @@ form {
 
 #email {
   margin-right: 0;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  width: 400px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  width: 300px;
   text-align: center;
   font-size: 15px;
 }
@@ -145,4 +146,13 @@ form {
 #companies {
   margin-top: 50px;
   margin-left: -30px;
+}
+
+.icon {
+  margin-right: -5px;
+  height: 40px;
+}
+
+#Atlassian {
+  margin-left: 10px;
 }
