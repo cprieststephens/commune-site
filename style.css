@@ -4,11 +4,11 @@
   margin-right: 20px;
 }
 
-/*nav,*/
+/*nav,
 #container,
 #companies {
   *background-color: #f6f9fe;
-}
+}*/
 
 /* Code for navbar found on W3 Schools website here on 13.06.22: https://www.w3schools.com/Css/css_navbar.asp*/
 nav {
@@ -27,7 +27,6 @@ nav {
 ul {
   list-style-type: none;
   display: flex;
-  /* margin-top: 50px;*/
 }
 
 li {
@@ -110,10 +109,12 @@ li {
 
 #description {
   margin-top: 0px;
+  background-color: lawngreen;
 }
 
 form {
   margin: 0;
+  background-color: red;
 }
 
 #submit {
@@ -137,4 +138,5 @@ form {
 #companies {
   margin-top: 50px;
   margin-left: 0;
+  background-color: aqua;
 }
