@@ -52,6 +52,7 @@ li {
 }
 
 #waitlist {
+  padding-left: 0px;
   background-color: #372865;
   border-radius: 3px;
 }
