@@ -6,7 +6,8 @@
 
 nav,
 #container,
-#companies {
+#companies,
+#additional_main {
   background-color: #f6f9fe;
 }
 
@@ -162,4 +163,22 @@ form {
 .icon {
   height: 40px;
   margin-right: -30px;
+}
+
+#additional_main {
+  padding-top: 20px;
+  padding-bottom: 500px;
+}
+
+#additional_logo {
+  padding-top: 30px;
+  margin-left: -15px;
+}
+
+#additional_heading {
+  color: #353252;
+}
+
+.additional_text {
+  color: #545454;
 }
