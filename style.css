@@ -72,7 +72,7 @@ li {
 
 /* Code for aligning text found here on 17.06.22: https://www.w3docs.com/snippets/css/how-to-horizontally-center-contents-within-a-div.html */
 #banner {
-  width: 500px;
+  width: 450px;
   height: 41px;
   margin-top: 70px;
   margin-left: 0px;
@@ -82,6 +82,15 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#banner_text {
+  margin-left: -40px;
+}
+
+#banner_link {
+  margin-right: -20px;
+  margin-left: -15px;
 }
 
 #banner a:link {
@@ -127,7 +136,7 @@ form {
 }
 
 #submit {
-  width: 150px;
+  width: 140px;
   margin: 0;
   border: none;
   padding-top: 20px;
