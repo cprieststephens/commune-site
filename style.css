@@ -183,3 +183,31 @@ form {
 .additional_text {
   color: #545454;
 }
+
+/*For tablet*/
+
+/*Code for media queries found here on 24.06.22: https://www.w3schools.com/Css/css_rwd_mediaqueries.asp*/
+@media only screen and (max-width: 768px) {
+  #illustration {
+    display: none;
+  }
+
+  ul {
+    display: none;
+  }
+
+  #headline {
+    text-align: center;
+    margin-right: -20px;
+  }
+
+  #description {
+    text-align: center;
+    margin-right: -20px;
+  }
+
+  /*Code for removing wrap found here on 24.06.22: https://www.w3docs.com/snippets/html/how-to-disable-word-wrapping-in-html.html*/
+  form {
+    white-space: nowrap;
+  }
+}
