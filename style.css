@@ -186,7 +186,9 @@ form {
 
 /*For tablet*/
 /*Code for media queries found here on 24.06.22: https://www.w3schools.com/Css/css_rwd_mediaqueries.asp*/
-@media only screen and (max-width: 768px) {
+/*Code for removing wrap found here on 24.06.22: https://www.w3docs.com/snippets/html/how-to-disable-word-wrapping-in-html.html*/
+
+/*@media only screen and (max-width: 768px) {
   #illustration {
     display: none;
   }
@@ -205,11 +207,10 @@ form {
     margin-right: -20px;
   }
 
-  /*Code for removing wrap found here on 24.06.22: https://www.w3docs.com/snippets/html/how-to-disable-word-wrapping-in-html.html*/
   form {
     white-space: nowrap;
   }
-}
+} */
 
 /*For phone*/
 @media only screen and (max-width: 600px) {
@@ -219,5 +220,34 @@ form {
 
   #main_menu {
     display: none;
+  }
+
+  #banner {
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    margin-left: 10px;
+  }
+
+  #banner_text {
+    margin-left: 0px;
+  }
+
+  #headline {
+    text-align: center;
+    font-size: 40px;
+  }
+
+  #description {
+    text-align: center;
+    margin-right: 0px;
+  }
+
+  #email {
+    width: 265px;
+  }
+
+  #submit {
+    width: 310px;
   }
 }
