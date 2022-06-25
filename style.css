@@ -210,3 +210,14 @@ form {
     white-space: nowrap;
   }
 }
+
+/*For phone*/
+@media only screen and (max-width: 600px) {
+  #illustration {
+    display: none;
+  }
+
+  #main_menu {
+    display: none;
+  }
+}
