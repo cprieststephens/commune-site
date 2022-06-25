@@ -12,7 +12,7 @@ nav,
 }
 
 /* Code for navbar found on W3 Schools website here on 13.06.22: https://www.w3schools.com/Css/css_navbar.asp*/
-nav {
+#main_menu {
   display: flex;
   justify-content: space-between;
   padding-top: 20px;
@@ -185,14 +185,13 @@ form {
 }
 
 /*For tablet*/
-
 /*Code for media queries found here on 24.06.22: https://www.w3schools.com/Css/css_rwd_mediaqueries.asp*/
 @media only screen and (max-width: 768px) {
   #illustration {
     display: none;
   }
 
-  ul {
+  #main_menu {
     display: none;
   }
 
