@@ -223,10 +223,11 @@ form {
   }
 
   #banner {
-    width: 250px;
+    width: 80%;
     height: 50px;
     text-align: center;
-    margin-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   #banner_text {
@@ -235,21 +236,29 @@ form {
 
   #headline {
     text-align: center;
-    font-size: 40px;
-    margin-right: -10px;
+    font-size: 35px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   #description {
     text-align: center;
-    margin-right: -10px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   #email {
-    width: 265px;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   #submit {
     width: 310px;
     margin-top: 5px;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
