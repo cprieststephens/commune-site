@@ -163,7 +163,7 @@ form {
 .icon {
   height: 40px;
   margin-right: -30px;
-  margin-left: -30px;
+  margin-left: -20px;
 }
 
 #additional_main {
@@ -197,18 +197,28 @@ form {
     display: none;
   }
 
+  #banner {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
   #headline {
     text-align: center;
-    margin-right: -20px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   #description {
     text-align: center;
-    margin-right: -20px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   form {
     white-space: nowrap;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
