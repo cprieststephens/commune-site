@@ -12,7 +12,7 @@ nav,
 }
 
 /* Code for navbar found on W3 Schools website here on 13.06.22: https://www.w3schools.com/Css/css_navbar.asp*/
-#main_menu {
+nav {
   display: flex;
   justify-content: space-between;
   padding-top: 20px;
@@ -193,7 +193,7 @@ form {
     display: none;
   }
 
-  #main_menu {
+  nav {
     display: none;
   }
 
@@ -218,7 +218,7 @@ form {
     display: none;
   }
 
-  #main_menu {
+  nav {
     display: none;
   }
 
