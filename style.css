@@ -184,11 +184,11 @@ form {
   color: #545454;
 }
 
-/*For tablet*/
-/*Code for media queries found here on 24.06.22: https://www.w3schools.com/Css/css_rwd_mediaqueries.asp*/
+/*Code for media queries found here on 24.06.22: https://www.w3schools.com/Css/css_rwd_mediaqueries.asp and here on 26.06.22: https://www.freecodecamp.org/news/media-queries-width-ranges/#:~:text=Taking%20a%20look%20at%20the%20CSS%20file%2C%20you%27ll,boxes%20also%20changes%20in%20this%20particular%20width%20range.*/
 /*Code for removing wrap found here on 24.06.22: https://www.w3docs.com/snippets/html/how-to-disable-word-wrapping-in-html.html*/
 
-/*@media only screen and (max-width: 768px) {
+/*For tablet*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
   #illustration {
     display: none;
   }
@@ -210,10 +210,10 @@ form {
   form {
     white-space: nowrap;
   }
-} */
+}
 
 /*For phone*/
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 767px) {
   #illustration {
     display: none;
   }
@@ -236,11 +236,12 @@ form {
   #headline {
     text-align: center;
     font-size: 40px;
+    margin-right: -10px;
   }
 
   #description {
     text-align: center;
-    margin-right: 0px;
+    margin-right: -10px;
   }
 
   #email {
@@ -249,5 +250,6 @@ form {
 
   #submit {
     width: 310px;
+    margin-top: 5px;
   }
 }
