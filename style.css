@@ -236,6 +236,14 @@ form {
   #companies {
     margin-left: 0px;
   }
+
+  #additional_heading {
+    text-align: center;
+  }
+
+  .additional_text {
+    text-align: center;
+  }
 }
 
 /*For phone*/
@@ -293,5 +301,13 @@ form {
 
   #companies {
     margin-left: -20px;
+  }
+
+  #additional_heading {
+    text-align: center;
+  }
+
+  .additional_text {
+    text-align: center;
   }
 }
