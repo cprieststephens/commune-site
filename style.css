@@ -53,9 +53,11 @@ li {
 }
 
 #waitlist {
-  padding-left: 0px;
+  padding-left: 5px;
+  padding-right: 5px;
   background-color: #372865;
   border-radius: 3px;
+  text-align: center;
 }
 
 #waitlist a:link {
@@ -127,7 +129,7 @@ form {
 }
 
 #email {
-  width: 300px;
+  width: 50%;
   margin-right: 0;
   padding-top: 18px;
   padding-bottom: 18px;
@@ -136,7 +138,7 @@ form {
 }
 
 #submit {
-  width: 140px;
+  width: 20%;
   margin: 0;
   border: none;
   padding-top: 20px;
@@ -197,6 +199,10 @@ form {
     display: none;
   }
 
+  #container {
+    flex-direction: column;
+  }
+
   #banner {
     width: 80%;
     margin-right: auto;
@@ -218,11 +224,17 @@ form {
   form {
     white-space: nowrap;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: 30px;
+  }
+
+  #submit {
+    text-align: center;
+    padding-right: 5px;
+    padding-left: 5px;
   }
 
   #companies {
-    margin-left: auto;
+    margin-left: 0px;
   }
 }
 
@@ -232,12 +244,12 @@ form {
     display: none;
   }
 
-  #container {
-    flex-direction: column;
-  }
-
   nav {
     display: none;
+  }
+
+  #container {
+    flex-direction: column;
   }
 
   #banner {
@@ -256,30 +268,30 @@ form {
     font-size: 35px;
     width: 100%;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: -20px;
   }
 
   #description {
     text-align: center;
     width: 100%;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: -20px;
   }
 
   #email {
-    width: 80%;
+    width: 86%;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: 10px;
   }
 
   #submit {
-    width: 310px;
+    width: 100%;
     margin-top: 5px;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: 10px;
   }
 
   #companies {
-    margin-left: auto;
+    margin-left: -20px;
   }
 }
