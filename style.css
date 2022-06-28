@@ -189,14 +189,25 @@ form {
 /*Code for media queries found here on 24.06.22: https://www.w3schools.com/Css/css_rwd_mediaqueries.asp and here on 26.06.22: https://www.freecodecamp.org/news/media-queries-width-ranges/#:~:text=Taking%20a%20look%20at%20the%20CSS%20file%2C%20you%27ll,boxes%20also%20changes%20in%20this%20particular%20width%20range.*/
 /*Code for removing wrap found here on 24.06.22: https://www.w3docs.com/snippets/html/how-to-disable-word-wrapping-in-html.html*/
 
+/*For laptop*/
+@media only screen and (min-width: 992px) {
+  #hamburger {
+    display: none;
+  }
+}
+
 /*For tablet*/
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  #illustration {
+  #logo {
+    padding-top: 20px;
+  }
+
+  ul {
     display: none;
   }
 
-  nav {
-    display: none;
+  #hamburger {
+    padding-top: 20px;
   }
 
   #container {
@@ -237,6 +248,10 @@ form {
     margin-left: 0px;
   }
 
+  #illustration {
+    display: none;
+  }
+
   #additional_heading {
     text-align: center;
   }
@@ -248,12 +263,16 @@ form {
 
 /*For phone*/
 @media only screen and (min-width: 601px) and (max-width: 767px) {
-  #illustration {
+  #logo {
+    padding-top: 20px;
+  }
+
+  ul {
     display: none;
   }
 
-  nav {
-    display: none;
+  #hamburger {
+    padding-top: 20px;
   }
 
   #container {
@@ -303,6 +322,10 @@ form {
     margin-left: -20px;
   }
 
+  #illustration {
+    display: none;
+  }
+
   #additional_heading {
     text-align: center;
   }
@@ -314,12 +337,16 @@ form {
 
 /*For small phone*/
 @media only screen and (max-width: 600px) {
-  #illustration {
+  #logo {
+    padding-top: 20px;
+  }
+
+  ul {
     display: none;
   }
 
-  nav {
-    display: none;
+  #hamburger {
+    padding-top: 20px;
   }
 
   #container {
@@ -367,6 +394,10 @@ form {
 
   #companies {
     margin-left: -20px;
+  }
+
+  #illustration {
+    display: none;
   }
 
   #additional_heading {
