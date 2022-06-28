@@ -2,7 +2,6 @@
   font-family: "Nunito", sans-serif;
   padding-right: 20px;
   padding-left: 20px;
-  margin-right: auto;
 }
 
 nav,
@@ -152,8 +151,8 @@ form {
 
 #illustration {
   height: 375px;
-  margin-top: 50px;
-  margin-right: 0;
+  margin-top: 100px;
+  margin-right: 75px;
 }
 
 #companies {
@@ -288,13 +287,13 @@ form {
   }
 
   #email {
-    width: 89%;
+    width: 80%;
     margin-right: auto;
     margin-left: 10px;
   }
 
   #submit {
-    width: 100%;
+    width: 91%;
     margin-top: 5px;
     margin-right: auto;
     margin-left: 10px;
@@ -348,13 +347,13 @@ form {
 
   #description {
     text-align: center;
-    width: 100%;
+    width: 80%;
     margin-right: auto;
     margin-left: -20px;
   }
 
   #email {
-    width: 85%;
+    width: 80%;
     margin-right: auto;
     margin-left: 10px;
   }
