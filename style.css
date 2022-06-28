@@ -220,6 +220,12 @@ form {
     margin-left: auto;
   }
 
+  #banner_text {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
   #headline {
     text-align: center;
     margin-right: auto;
