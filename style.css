@@ -2,6 +2,7 @@
   font-family: "Nunito", sans-serif;
   padding-right: 20px;
   padding-left: 20px;
+  margin-right: auto;
 }
 
 nav,
@@ -247,7 +248,7 @@ form {
 }
 
 /*For phone*/
-@media only screen and (max-width: 767px) {
+@media only screen and (min-width: 601px) and (max-width: 767px) {
   #illustration {
     display: none;
   }
@@ -287,7 +288,73 @@ form {
   }
 
   #email {
-    width: 86%;
+    width: 89%;
+    margin-right: auto;
+    margin-left: 10px;
+  }
+
+  #submit {
+    width: 100%;
+    margin-top: 5px;
+    margin-right: auto;
+    margin-left: 10px;
+  }
+
+  #companies {
+    margin-left: -20px;
+  }
+
+  #additional_heading {
+    text-align: center;
+  }
+
+  .additional_text {
+    text-align: center;
+  }
+}
+
+/*For small phone*/
+@media only screen and (max-width: 600px) {
+  #illustration {
+    display: none;
+  }
+
+  nav {
+    display: none;
+  }
+
+  #container {
+    flex-direction: column;
+  }
+
+  #banner {
+    width: 80%;
+    height: 50px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  #banner_text {
+    margin-left: 0px;
+  }
+
+  #headline {
+    text-align: center;
+    font-size: 35px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: -20px;
+  }
+
+  #description {
+    text-align: center;
+    width: 100%;
+    margin-right: auto;
+    margin-left: -20px;
+  }
+
+  #email {
+    width: 85%;
     margin-right: auto;
     margin-left: 10px;
   }
