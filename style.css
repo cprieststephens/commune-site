@@ -190,14 +190,14 @@ form {
 /*Code for removing wrap found here on 24.06.22: https://www.w3docs.com/snippets/html/how-to-disable-word-wrapping-in-html.html*/
 
 /*For laptop*/
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1020px) {
   #hamburger {
     display: none;
   }
 }
 
 /*For tablet*/
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 1020px) {
   #logo {
     padding-top: 20px;
   }
@@ -282,7 +282,10 @@ form {
   }
 
   #container {
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   #banner {
@@ -312,16 +315,10 @@ form {
   }
 
   #email {
-    width: 80%;
-    margin-right: auto;
-    margin-left: 10px;
+    margin-left: 25px;
   }
 
   #submit {
-    width: 91%;
-    margin-top: 5px;
-    margin-right: auto;
-    margin-left: 10px;
   }
 
   #companies {
@@ -386,20 +383,27 @@ form {
     margin-left: -20px;
   }
 
-  #email {
-    width: 85%;
+  form {
+    position: absolute;
+    left: 23%;
     margin-right: auto;
-    margin-left: 10px;
+  }
+
+  #email {
+    width: 230px;
+    /*margin-right: auto;
+    margin-left: 10px;*/
   }
 
   #submit {
-    width: 100%;
+    width: 273px;
     margin-top: 5px;
-    margin-right: auto;
-    margin-left: 10px;
+    /*margin-right: auto;
+    margin-left: 10px;*/
   }
 
   #companies {
+    padding-top: 95px;
     margin-left: -40px;
   }
 
