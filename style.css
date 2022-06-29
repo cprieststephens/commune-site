@@ -383,6 +383,7 @@ form {
     margin-left: -20px;
   }
 
+  /*Code for absolute positioning found here on 29.06.22: https://www.w3docs.com/snippets/css/how-to-horizontally-center-a-div-with-css.html*/
   form {
     position: absolute;
     left: 23%;
@@ -391,15 +392,11 @@ form {
 
   #email {
     width: 230px;
-    /*margin-right: auto;
-    margin-left: 10px;*/
   }
 
   #submit {
     width: 273px;
     margin-top: 5px;
-    /*margin-right: auto;
-    margin-left: 10px;*/
   }
 
   #companies {
