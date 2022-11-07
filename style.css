@@ -9,67 +9,31 @@
 
 /*Navbar*/
 
-/*nav,
-#container,
-#companies,
-#additional_main {
-  background-color: #f6f9fe;
-}*/
-
 nav {
   display: flex;
   justify-content: space-between;
   padding-top: 20px;
 }
 
-#logo {
-  margin-left: 0;
-}
-
 ul {
+  width: 60%;
   list-style-type: none;
   display: flex;
+  justify-content: space-between;
 }
 
 li {
-  margin: 0;
   padding-top: 20px;
-  padding-right: 0;
   padding-bottom: 20px;
-  padding-right: 0;
-}
-
-#features a:link,
-#affiliates a:link,
-#pricing a:link,
-#communities a:link {
   color: #545454;
-  text-decoration: none;
-}
-
-#features a:visited,
-#affiliates a:visited,
-#pricing a:visited,
-#communities a:visited {
-  color: #545454;
-  text-decoration: none;
 }
 
 #waitlist {
-  width: 150px;
-  padding-left: 0;
+  width: 20%;
+  color: #f6f9fe;
   background-color: #372865;
   border-radius: 3px;
   text-align: center;
-}
-
-#waitlist a:link {
-  color: #f6f9fe;
-  text-decoration: none;
-}
-
-#waitlist a:visited {
-  color: #f6f9fe;
 }
 
 /* Section*/
