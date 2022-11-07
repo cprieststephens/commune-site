@@ -45,7 +45,7 @@ li {
   width: 65%;
   height: 10%;
   border-radius: 50px;
-  margin-top: 15%;
+  margin-top: 10%;
   background-color: #372865;
   display: flex;
   align-items: center;
@@ -58,21 +58,24 @@ li {
 }
 
 /*Text*/
-#headline {
-  margin-top: 20px;
+#text {
+  padding: 0;
+}
+
+h1 {
+  padding: 0;
+  width: 90%;
+  margin-top: 2%;
   margin-bottom: 0;
-  margin-left: -40px;
   color: #353252;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 3rem;
 }
 
 #description {
-  margin-top: 0px;
-  margin-right: 0px;
-  margin-bottom: 20px;
-  margin-left: -40px;
-  font-size: 18;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 2%;
   color: #545454;
 }
 
