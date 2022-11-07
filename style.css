@@ -36,38 +36,24 @@ li {
   text-align: center;
 }
 
-/* Section*/
 #container {
   display: flex;
 }
 
 /*Early access banner*/
 #banner {
-  width: 450px;
-  height: 41px;
-  margin-top: 70px;
-  margin-left: 0px;
+  width: 65%;
+  height: 10%;
   border-radius: 50px;
+  margin-top: 15%;
   background-color: #372865;
-  color: #cca8e9;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 #banner_text {
-  text-align: center;
-}
-
-#banner_link {
-  margin-right: -20px;
-  margin-left: -15px;
-}
-
-#banner a:link {
-  color: #cca8e9;
-}
-
-#banner a:visited {
+  background-color: #372865;
   color: #cca8e9;
 }
 
