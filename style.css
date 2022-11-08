@@ -81,31 +81,28 @@ h1 {
 
 /*Wait list form*/
 form {
-  margin-top: 0;
-  margin-right: 0;
-  margin-bottom: 0;
-  margin-left: -20px;
+  padding: 0;
 }
 
 #email {
   width: 50%;
-  margin-right: 0;
-  padding-top: 18px;
-  padding-bottom: 18px;
+  border: 1px solid black;
+  border-radius: 3px;
   text-align: center;
-  font-size: 15px;
+  font-size: 1rem;
+  padding-top: 2.75%;
+  padding-bottom: 2.75%;
 }
 
 #submit {
-  width: 125px;
-  margin: 0;
+  width: 20%;
   border: none;
-  padding-top: 20px;
-  padding-bottom: 20px;
   border-radius: 3px;
   background-color: #372865;
   color: #f6f9fe;
-  font-size: 15px;
+  font-size: 1rem;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 
 /*lllustration*/
@@ -128,25 +125,6 @@ form {
   margin-right: -45px;
   margin-left: -20px;
 }
-
-/*For additional pages so can be deleted
-#additional_main {
-  padding-top: 20px;
-  padding-bottom: 500px;
-}
-
-#additional_logo {
-  padding-top: 30px;
-  margin-left: -15px;
-}
-
-#additional_heading {
-  color: #353252;
-}
-
-.additional_text {
-  color: #545454;
-}*/
 
 /*For laptop*/
 @media only screen and (min-width: 1020px) {
