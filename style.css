@@ -36,11 +36,14 @@ li {
   text-align: center;
 }
 
+/*Main section*/
+
 #container {
   display: flex;
 }
 
 /*Early access banner*/
+
 #banner {
   width: 65%;
   height: 10%;
@@ -57,7 +60,8 @@ li {
   color: #cca8e9;
 }
 
-/*Text*/
+/*Main Text*/
+
 #text {
   padding: 0;
 }
@@ -80,6 +84,7 @@ h1 {
 }
 
 /*Wait list form*/
+
 form {
   padding: 0;
 }
@@ -106,10 +111,10 @@ form {
 }
 
 /*lllustration*/
+
 #illustration {
-  height: 375px;
-  margin-top: 50px;
-  margin-right: 15px;
+  width: 30%;
+  margin-top: 1.5%;
 }
 
 /*Footer*/
