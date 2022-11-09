@@ -200,6 +200,60 @@ footer {
 
 /*Tablet screens*/
 @media only screen and (min-width: 481px) and (max-width: 768px) {
+  * {
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+
+  ul,
+  #illustration {
+    display: none;
+  }
+
+  nav {
+    margin-top: 5%;
+    margin-left: 7%;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5%;
+  }
+
+  #banner {
+    width: 75%;
+    text-align: center;
+    margin-top: 15%;
+  }
+
+  #text {
+    width: 75%;
+    text-align: center;
+  }
+
+  h1 {
+    width: 100%;
+    margin-top: 5%;
+  }
+
+  #description {
+    width: 100%;
+    margin-top: 5%;
+  }
+
+  form {
+    width: 90%;
+    margin-top: 5%;
+    margin-left: 25%;
+  }
+
+  footer {
+    width: 100%;
+    margin-top: 10%;
+    margin-left: 15%;
+  }
 }
 
 /*Laptops/small screens*/
@@ -212,224 +266,3 @@ footer {
     display: none;
   }
 }
-
-/*For tablet*/
-/*@media only screen and (min-width: 768px) and (max-width: 1020px) {
-  #logo {
-    padding-top: 20px;
-  }
-
-  ul {
-    display: none;
-  }
-
-  #hamburger {
-    padding-top: 20px;
-  }
-
-  #container {
-    justify-items: center;
-  }
-
-  #banner {
-    width: 95%;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  #banner_text {
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  #headline {
-    justify-content: center;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  #description {
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  form {
-    white-space: nowrap;
-    margin-right: auto;
-    margin-left: 30px;
-  }
-
-  #submit {
-    text-align: center;
-    padding-right: 5px;
-    padding-left: 5px;
-  }
-
-  #companies {
-    margin-left: 0px;
-  }
-
-  #illustration {
-    display: none;
-  }
-
-  #additional_heading {
-    text-align: center;
-  }
-
-  .additional_text {
-    text-align: center;
-  }
-}*/
-
-/*For phone*/
-/*@media only screen and (min-width: 601px) and (max-width: 767px) {
-  #logo {
-    padding-top: 20px;
-  }
-
-  ul {
-    display: none;
-  }
-
-  #hamburger {
-    padding-top: 20px;
-  }
-
-  #container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  #banner {
-    width: 80%;
-    height: 50px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  #banner_text {
-    margin-left: 0px;
-  }
-
-  #headline {
-    text-align: center;
-    font-size: 35px;
-    width: 100%;
-    margin-right: auto;
-    margin-left: -20px;
-  }
-
-  #description {
-    text-align: center;
-    width: 100%;
-    margin-right: auto;
-    margin-left: -20px;
-  }
-
-  form {
-    white-space: nowrap;
-  }
-
-  #email {
-    margin-left: 25px;
-  }
-
-  #companies {
-    margin-left: -20px;
-  }
-
-  #illustration {
-    display: none;
-  }
-
-  #additional_heading {
-    text-align: center;
-  }
-
-  .additional_text {
-    text-align: center;
-  }
-}*/
-
-/*For small phone*/
-/*@media only screen and (max-width: 600px) {
-  #logo {
-    padding-top: 20px;
-  }
-
-  ul {
-    display: none;
-  }
-
-  #hamburger {
-    padding-top: 20px;
-  }
-
-  #container {
-    flex-direction: column;
-  }
-
-  #banner {
-    width: 90%;
-    height: 50px;
-    margin-right: 20px;
-    margin-top: 30px;
-    margin-left: auto;
-  }
-
-  #banner_text {
-    margin-left: -10px;
-  }
-
-  #headline {
-    text-align: center;
-    font-size: 35px;
-    width: 100%;
-    margin-right: auto;
-    margin-left: -20px;
-  }
-
-  #description {
-    text-align: center;
-    width: 100%;
-    margin-right: auto;
-    margin-left: -20px;
-  }
-
-  form {
-    position: absolute;
-    left: 23%;
-    margin-right: auto;
-  }
-
-  #email {
-    width: 230px;
-  }
-
-  #submit {
-    width: 273px;
-    margin-top: 5px;
-  }
-
-  #companies {
-    padding-top: 95px;
-    margin-left: -40px;
-  }
-
-  #illustration {
-    display: none;
-  }
-
-  #additional_heading {
-    text-align: center;
-  }
-
-  .additional_text {
-    text-align: center;
-  }
-}*/
