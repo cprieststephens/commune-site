@@ -247,6 +247,7 @@ footer {
   h1 {
     width: 100%;
     margin-top: 5%;
+    font-size: 3rem;
   }
 
   #description {
@@ -255,15 +256,24 @@ footer {
   }
 
   form {
-    width: 80%;
+    width: 85%;
     margin-top: 2%;
     margin-left: 35%;
+  }
+
+  #email {
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+
+  #submit {
+    width: 20%;
   }
 
   footer {
     width: 60%;
     margin-top: 7%;
-    margin-left: 12%;
+    margin-left: 17%;
   }
 }
 
