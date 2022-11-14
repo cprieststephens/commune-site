@@ -286,7 +286,7 @@ footer {
   }
 
   #submit {
-    width: 25%;
+    width: 27%;
   }
 
   #illustration {
@@ -304,5 +304,20 @@ footer {
 @media only screen and (min-width: 1025px) and (max-width: 1440px) {
   #hamburger {
     display: none;
+  }
+}
+
+/*Extra large screens*/
+@media only screen and (min-width: 1441px) {
+  #hamburger {
+    display: none;
+  }
+
+  #banner {
+    margin-top: 10%;
+  }
+
+  footer {
+    margin-top: 0;
   }
 }
