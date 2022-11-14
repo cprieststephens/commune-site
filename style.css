@@ -13,6 +13,11 @@ nav {
   display: flex;
   justify-content: space-between;
   padding-top: 20px;
+  margin-right: 5%;
+}
+
+#logo {
+  margin-left: 5%;
 }
 
 ul {
@@ -40,15 +45,20 @@ li {
 
 #container {
   display: flex;
+  margin-right: 5%;
+}
+
+section {
+  margin-left: 5%;
 }
 
 /*Early access banner*/
 
 #banner {
-  width: 65%;
+  width: 55%;
   height: 10%;
   border-radius: 50px;
-  margin-top: 10%;
+  margin-top: 15%;
   background-color: #372865;
   display: flex;
   align-items: center;
@@ -78,6 +88,7 @@ h1 {
 }
 
 #description {
+  width: 85%;
   padding: 0;
   margin-top: 0;
   margin-bottom: 2%;
@@ -91,7 +102,7 @@ form {
 }
 
 #email {
-  width: 50%;
+  width: 35%;
   border: 1px solid black;
   border-radius: 3px;
   text-align: center;
@@ -114,8 +125,8 @@ form {
 /*lllustration*/
 
 #illustration {
-  width: 348px;
-  margin-top: 1.5%;
+  width: 400px;
+  margin-top: 7%;
 }
 
 /*Footer*/
@@ -123,6 +134,7 @@ footer {
   color: #545454;
   font-weight: bold;
   margin-top: 3%;
+  margin-left: 5%;
 }
 
 .icon {
@@ -153,7 +165,7 @@ footer {
 
   #banner {
     width: 95%;
-    margin-top: 15%;
+    margin-top: 20%;
   }
 
   #banner_text {
@@ -195,6 +207,7 @@ footer {
 
   footer {
     width: 100%;
+    margin-top: 15%;
     margin-left: 7%;
   }
 }
@@ -244,7 +257,7 @@ footer {
   form {
     width: 80%;
     margin-top: 2%;
-    margin-left: 20%;
+    margin-left: 35%;
   }
 
   footer {
@@ -264,6 +277,10 @@ footer {
     margin-top: 4%;
   }
 
+  #banner {
+    margin-top: 5%;
+  }
+
   h1 {
     font-size: 3.5rem;
   }
@@ -277,10 +294,14 @@ footer {
     height: 350px;
     margin-top: 10%;
   }
+
+  footer {
+    margin-top: 0;
+  }
 }
 
 /*Desktops/large screens*/
-@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
   #hamburger {
     display: none;
   }
