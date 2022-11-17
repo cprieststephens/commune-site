@@ -148,10 +148,10 @@ footer {
 
 /*Mobile screens*/
 @media only screen and (min-width: 320px) and (max-width: 480px) {
-  * {
+  /* * {
     padding-left: 1%;
     padding-right: 1%;
-  }
+  }*/
 
   nav {
     flex-direction: column;
@@ -161,8 +161,8 @@ footer {
 
   #hamburger {
     width: 25px;
-    margin-top: 3%;
-    margin-left: 75%;
+    margin-top: 4%;
+    margin-left: 83%;
     position: absolute;
   }
 
@@ -193,14 +193,8 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: 3%;
   }
-
-  /*section {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }*/
 
   #banner {
     width: 95%;
