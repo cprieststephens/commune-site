@@ -2,8 +2,6 @@
 
 * {
   font-family: "Nunito", sans-serif;
-  padding-right: 20px;
-  padding-left: 20px;
   background-color: #f6f9fe;
 }
 
@@ -155,14 +153,12 @@ footer {
     padding-right: 1%;
   }
 
-  /*Copy to tablet + laptop screens for navbar*/
   nav {
     flex-direction: column;
     margin-top: 5%;
     margin-left: 5%;
   }
 
-  /*Copy to tablet + laptop screens for navbar*/
   #hamburger {
     width: 25px;
     margin-top: 3%;
@@ -170,24 +166,20 @@ footer {
     position: absolute;
   }
 
-  /*Copy to tablet + laptop screens for navbar*/
   #logo {
     width: 200px;
     margin-left: 0;
   }
 
-  /*Copy to tablet + laptop screens for navbar*/
   ul {
     flex-direction: column;
     display: none;
   }
 
-  /*Copy to tablet + laptop screens for navbar*/
   li {
     padding: 0;
   }
 
-  /*Copy to tablet + laptop screens for navbar*/
   #waitlist {
     width: 100%;
     color: #545454;
@@ -263,14 +255,21 @@ footer {
 /*Tablet screens*/
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   * {
-    padding-left: 1%;
-    padding-right: 1%;
+    /*max-width: 90%;*/
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
   }
 
   nav {
     flex-direction: column;
+    max-width: 600px;
     margin-top: 5%;
+    margin-right: 0;
     margin-left: 5%;
+    padding: 0;
   }
 
   #hamburger {
@@ -303,15 +302,18 @@ footer {
   }
 
   #container {
+    /*max-width: 90%;*/
     margin-right: 0;
   }
 
   section {
-    width: 100%;
+    width: 90%;
+    /*max-width: 700px;*/
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 0;
+    margin: 0;
+    padding: 0;
   }
 
   #banner {
@@ -335,8 +337,9 @@ footer {
   }
 
   form {
-    width: 85%;
+    width: 500px;
     margin-top: 2%;
+    margin-right: 0;
     margin-left: 20%;
   }
 
@@ -346,7 +349,7 @@ footer {
   }
 
   #submit {
-    width: 30%;
+    width: 120px;
   }
 
   #illustration {
@@ -356,7 +359,8 @@ footer {
   footer {
     width: 75%;
     margin-top: 7%;
-    margin-left: 17%;
+    margin-right: 0;
+    margin-left: 10%;
   }
 }
 
