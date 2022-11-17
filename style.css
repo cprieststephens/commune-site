@@ -12,12 +12,13 @@
 nav {
   display: flex;
   justify-content: space-between;
+  max-width: 90%;
   padding-top: 20px;
   margin-right: 5%;
 }
 
 #logo {
-  margin-left: 5%;
+  margin-left: 150px;
 }
 
 ul {
@@ -30,6 +31,7 @@ ul {
 li {
   padding-top: 20px;
   padding-bottom: 20px;
+  margin-right: 25px;
   color: #545454;
 }
 
@@ -44,14 +46,10 @@ li {
 /*Main section*/
 
 #container {
-  /*display: flex;*/
-  margin-right: 5%;
+  width: 57%;
+  padding: 0;
+  margin-left: 150px;
 }
-
-/*section {
-  margin-left: 5%;
-  width: 70%;
-}*/
 
 /*Early access banner*/
 
@@ -59,7 +57,7 @@ li {
   width: 63%;
   height: 10%;
   border-radius: 50px;
-  margin-top: 15%;
+  margin-top: 5%;
   background-color: #372865;
   display: flex;
   align-items: center;
@@ -127,9 +125,9 @@ form {
 /*lllustration*/
 
 #illustration {
-  width: 275px;
-  margin-top: 150px;
-  margin-left: 70%;
+  width: 300px;
+  margin-top: 85px;
+  margin-left: 65%;
   position: absolute;
 }
 
@@ -138,7 +136,7 @@ footer {
   color: #545454;
   font-weight: bold;
   margin-top: 3%;
-  margin-left: 5%;
+  margin-left: 150px;
 }
 
 .icon {
