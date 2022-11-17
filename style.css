@@ -44,14 +44,14 @@ li {
 /*Main section*/
 
 #container {
-  display: flex;
+  /*display: flex;*/
   margin-right: 5%;
 }
 
-section {
+/*section {
   margin-left: 5%;
   width: 70%;
-}
+}*/
 
 /*Early access banner*/
 
@@ -128,7 +128,9 @@ form {
 
 #illustration {
   width: 275px;
-  margin-top: 7%;
+  margin-top: 150px;
+  margin-left: 70%;
+  position: absolute;
 }
 
 /*Footer*/
@@ -190,14 +192,17 @@ footer {
 
   #container {
     width: 100%;
-  }
-
-  section {
-    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
+  /*section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }*/
 
   #banner {
     width: 95%;
@@ -302,19 +307,18 @@ footer {
   }
 
   #container {
-    /*max-width: 90%;*/
-    margin-right: 0;
-  }
-
-  section {
-    width: 90%;
-    /*max-width: 700px;*/
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0;
-    padding: 0;
   }
+
+  /*section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }*/
 
   #banner {
     width: 75%;
@@ -402,13 +406,13 @@ footer {
   }
 
   #container {
-    width: 100%;
+    width: 80%;
     margin-top: 10%;
   }
 
-  section {
+  /*section {
     margin-left: 0;
-  }
+  }*/
 
   #banner {
     width: 80%;
