@@ -258,7 +258,7 @@ footer {
 /*Tablet screens*/
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   * {
-    /*max-width: 90%;*/
+    max-width: 90%;
   }
 
   body {
@@ -376,14 +376,14 @@ footer {
 
   #hamburger {
     width: 25px;
-    margin-top: 3%;
-    margin-left: 75%;
+    margin-top: 2%;
+    margin-left: 80%;
     position: absolute;
   }
 
   #logo {
     width: 200px;
-    margin-left: 0;
+    margin-left: 20px;
   }
 
   ul {
@@ -404,13 +404,10 @@ footer {
   }
 
   #container {
-    width: 80%;
+    width: 70%;
     margin-top: 10%;
+    margin-left: 50px;
   }
-
-  /*section {
-    margin-left: 0;
-  }*/
 
   #banner {
     width: 80%;
@@ -429,11 +426,12 @@ footer {
     width: 250px;
     height: 350px;
     margin-top: 10%;
+    margin-left: 67%;
   }
 
   footer {
     margin-top: 7%;
-    margin-left: 0;
+    margin-left: 50px;
   }
 }
 
