@@ -141,18 +141,13 @@ footer {
 
 .icon {
   height: 10%;
-  padding: 0;
+  padding-right: 25px;
 }
 
 /*Navbar*/
 
 /*Mobile screens*/
 @media only screen and (min-width: 320px) and (max-width: 480px) {
-  /* * {
-    padding-left: 1%;
-    padding-right: 1%;
-  }*/
-
   nav {
     flex-direction: column;
     margin-top: 5%;
@@ -246,6 +241,10 @@ footer {
     width: 100%;
     margin-top: 12%;
     margin-left: 8%;
+  }
+
+  .icon {
+    padding-right: 10px;
   }
 }
 
@@ -422,6 +421,10 @@ footer {
   footer {
     margin-top: 7%;
     margin-left: 50px;
+  }
+
+  .icon {
+    padding-right: 20px;
   }
 }
 
