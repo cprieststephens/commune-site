@@ -125,8 +125,8 @@ form {
 /*lllustration*/
 
 #illustration {
-  width: 300px;
-  margin-top: 85px;
+  width: 280px;
+  margin-top: 75px;
   margin-left: 65%;
   position: absolute;
 }
@@ -393,7 +393,7 @@ footer {
   }
 
   #container {
-    width: 70%;
+    width: 60%;
     margin-top: 10%;
     margin-left: 50px;
   }
@@ -414,8 +414,8 @@ footer {
   #illustration {
     width: 250px;
     height: 350px;
-    margin-top: 10%;
-    margin-left: 67%;
+    margin-top: 12%;
+    margin-left: 60%;
   }
 
   footer {

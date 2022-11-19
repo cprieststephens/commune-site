@@ -48,15 +48,18 @@
           manage everything from members to content from one central dashboard.
         </p>
       </div>
-      <form action="/action_page.php">
+      <form onsubmit="return false">
         <input
           id="email"
           type="text"
           name="email"
           placeholder="Enter your email address"
         />
-        <input id="submit" type="submit" value="Join Waitlist" />
+        <button id="submit" type="submit" onclick="emailValidation()">
+          Join Waitlist
+        </button>
       </form>
+      <p id="validation_message"></p>
     </main>
     <footer>
       <p>Used by these companies:</p>
