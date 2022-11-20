@@ -32,15 +32,34 @@ li {
   padding-top: 20px;
   padding-bottom: 20px;
   margin-right: 25px;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav a {
   color: #545454;
+}
+
+nav a:hover {
+  color: black;
 }
 
 #waitlist {
   width: 20%;
-  color: #f6f9fe;
   background-color: #372865;
   border-radius: 3px;
   text-align: center;
+}
+
+#waitlist a {
+  color: #f6f9fe;
+  background-color: #372865;
+}
+
+#waitlist a:hover {
+  color: #cca8e9;
 }
 
 /*Main section*/
