@@ -95,10 +95,6 @@ nav a:hover {
   color: #cca8e9;
 }
 
-#banner_text a:hover {
-  color: white;
-}
-
 /*Main Text*/
 
 #text {
@@ -204,11 +200,19 @@ footer {
   }
 
   #waitlist {
-    width: 100%;
-    color: #545454;
     background-color: #f6f9fe;
+    width: 100%;
     border-radius: 0;
     text-align: left;
+  }
+
+  #waitlist a {
+    color: #545454;
+    background-color: #f6f9fe;
+  }
+
+  #waitlist a:hover {
+    color: black;
   }
 
   #container {
@@ -315,11 +319,19 @@ footer {
   }
 
   #waitlist {
-    width: 100%;
-    color: #545454;
     background-color: #f6f9fe;
+    width: 100%;
     border-radius: 0;
     text-align: left;
+  }
+
+  #waitlist a {
+    color: #545454;
+    background-color: #f6f9fe;
+  }
+
+  #waitlist a:hover {
+    color: black;
   }
 
   #container {
@@ -413,11 +425,19 @@ footer {
   }
 
   #waitlist {
-    width: 100%;
-    color: #545454;
     background-color: #f6f9fe;
+    width: 100%;
     border-radius: 0;
     text-align: left;
+  }
+
+  #waitlist a {
+    color: #545454;
+    background-color: #f6f9fe;
+  }
+
+  #waitlist a:hover {
+    color: black;
   }
 
   #container {
