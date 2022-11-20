@@ -44,3 +44,12 @@ submitButton.addEventListener("mouseenter", function (event) {
 submitButton.addEventListener("mouseleave", function (event) {
   submitButton.style.cursor = "cursor";
 });
+
+//To change the cursor to a pointer on hamburger menu mouseover
+let hamburgerMenu = document.getElementById("hamburger");
+hamburgerMenu.addEventListener("mouseenter", function (event) {
+  hamburgerMenu.style.cursor = "pointer";
+});
+hamburgerMenu.addEventListener("mouseleave", function (event) {
+  hamburgerMenu.style.cursor = "cursor";
+});
