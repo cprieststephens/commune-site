@@ -27,3 +27,20 @@ function emailValidation() {
     return false;
   }
 }
+
+// To change the submit button text colour on mouseover
+let submitButton = document.getElementById("submit");
+submitButton.addEventListener("mouseenter", function (event) {
+  submitButton.style.color = "#cca8e9";
+});
+submitButton.addEventListener("mouseleave", function (event) {
+  submitButton.style.color = "white";
+});
+
+//To change the cursor to a pointer on submit button mouseover
+submitButton.addEventListener("mouseenter", function (event) {
+  submitButton.style.cursor = "pointer";
+});
+submitButton.addEventListener("mouseleave", function (event) {
+  submitButton.style.cursor = "cursor";
+});
