@@ -95,6 +95,10 @@ nav a:hover {
   color: #cca8e9;
 }
 
+#banner_text a:hover {
+  color: white;
+}
+
 /*Main Text*/
 
 #text {
