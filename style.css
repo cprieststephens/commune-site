@@ -480,6 +480,12 @@ footer {
     width: 35%;
   }
 
+  #validation_message {
+    margin-left: 6.5%;
+    position: absolute;
+    z-index: 1;
+  }
+
   #illustration {
     width: 250px;
     height: 350px;
@@ -488,8 +494,10 @@ footer {
   }
 
   footer {
-    margin-top: 7%;
+    margin-top: 5%;
     margin-left: 50px;
+    position: absolute;
+    z-index: 0;
   }
 
   .icon {
