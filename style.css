@@ -180,14 +180,14 @@ footer {
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   nav {
     flex-direction: column;
-    margin-top: 5%;
+    margin-top: 3%;
     margin-left: 5%;
   }
 
   #hamburger {
     width: 25px;
     margin-top: 4%;
-    margin-left: 83%;
+    margin-left: 86%;
     position: absolute;
   }
 
@@ -199,6 +199,9 @@ footer {
   ul {
     flex-direction: column;
     display: none;
+    padding: 0;
+    margin-top: 1%;
+    margin-bottom: 0;
   }
 
   li {
@@ -222,16 +225,15 @@ footer {
   }
 
   #container {
-    width: 100%;
+    width: 97%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 3%;
+    margin-left: 5%;
   }
 
   #banner {
     width: 95%;
-    margin-top: 17%;
   }
 
   #banner_text {
@@ -245,17 +247,17 @@ footer {
   h1 {
     width: 100%;
     font-size: 2.5rem;
-    margin-top: 5%;
+    margin-top: 3%;
   }
 
   #description {
     width: 100%;
-    margin-top: 5%;
+    margin-top: 3%;
   }
 
   form {
-    margin-top: 5%;
-    margin-left: 5%;
+    margin-top: 3%;
+    margin-left: 3%;
   }
 
   #email {
@@ -271,18 +273,27 @@ footer {
     padding-bottom: 5%;
   }
 
+  #validation_message {
+    margin-left: 18%;
+    position: absolute;
+    z-index: 1;
+  }
+
   #illustration {
     display: none;
   }
 
   footer {
     width: 100%;
-    margin-top: 12%;
-    margin-left: 8%;
+    margin-top: 9%;
+    margin-left: 6%;
+    position: absolute;
+    z-index: 0;
   }
 
   .icon {
-    padding-right: 10px;
+    padding-right: 7px;
+    width: 2.85rem;
   }
 }
 
