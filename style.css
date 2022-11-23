@@ -324,7 +324,7 @@ footer {
   #hamburger {
     width: 25px;
     margin-top: 5%;
-    margin-left: 75%;
+    margin-left: 79%;
     position: absolute;
   }
 
@@ -367,7 +367,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 5%;
+    margin-left: 7%;
     /*position: relative;
     z-index: 0;*/
   }
@@ -423,7 +423,7 @@ footer {
     width: 75%;
     margin-top: 4%;
     margin-right: 0;
-    margin-left: 17%;
+    margin-left: 18%;
     position: absolute;
     z-index: 0;
   }
