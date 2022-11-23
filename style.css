@@ -149,6 +149,7 @@ form {
 }
 
 #validation_message {
+  margin-top: 0;
   margin-left: 150px;
   position: absolute;
   z-index: 1;
@@ -395,7 +396,7 @@ footer {
   }
 
   #validation_message {
-    margin-left: 23%;
+    margin-left: 25%;
   }
 
   #illustration {
