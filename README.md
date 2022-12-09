@@ -1,4 +1,4 @@
-<img src="img\Commune Landing Page.png" width="400px"/>
+<img src="img\Commune_Landing_Page.png" width="400px"/>
 
 - Project Title: Commune Waitlist Page Challenge
 - Author: Camilla Priest-Stephens
